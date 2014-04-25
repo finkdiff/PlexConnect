@@ -4,7 +4,7 @@ This for contains the files for a cross platform web based GUI
 Usage (before feeding back read about the known issues, especially the bit about pywin32 for Windows users):
 
 OSX/Linux:	sudo ./setup.py
-Windows:	python setup.p (or double-click the setup.py)
+Windows:	python setup.py (or double-click the setup.py)
 
 Requirements: 
 
