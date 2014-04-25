@@ -6,6 +6,10 @@ Usage (before feeding back read about the known issues, especially the bit about
 OSX/Linux:	sudo ./setup.py
 Windows:	python setup.p (or double-click the setup.py)
 
+Requirements: 
+
+1>	as per PlexConnect install guide on wiki
+2>	Windows users also need to install the version of pywin32 that matches their version of Python (both in terms of version number and 32/64 bit type - this will also let users run Python as a service)
 
 What is in place / working:
 
@@ -34,6 +38,7 @@ Known issues:
 	7)	No update functionality included as this is not in the main code
 	8)	Link to landing page / wiki should be included
 	9)	No password protection, anyone on your LAN can access it - therefore don't open up ports in your router and let any man and his dog in!! (probably not to much of an issue at the moment as it only runs when specified - just make sure you shut it down afterwards) - other option is to limit access to LAN addresses only
+	8)	Do we need a guided pywin32 install?
 
 
 
